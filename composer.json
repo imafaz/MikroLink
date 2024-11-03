@@ -1,0 +1,32 @@
+{
+    "name": "imafaz/mikrolink",
+    "description": "lightweight library for manage mikrotik router os with api",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "MikroLink",
+        "imafaz",
+        "mikrotik",
+        "mikrotik api",
+        "api mikrotik"
+    ],
+    "autoload": {
+        "psr-4": {
+            "MikrotikApi\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/imafaz/MikroLink",
+    "authors": [
+        {
+            "name": "Abolfazl Majidi (MrAfaz)",
+            "email": "abolfazlmajidi100@gmail.com",
+            "homepage": "https://mrafaz.com"
+        }
+    ],
+    "require": {
+        "php-64bit": ">=7.0",
+        "imafaz/easylog": "^1"
+    },
+    "minimum-stability": "stable"
+}
