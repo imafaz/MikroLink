@@ -206,7 +206,6 @@ class MikroLink
             $this->logger->debug('Connected...');
         } else {
             $this->logger->error($this->error_str);
-            die;
         }
         return $this->connected;
     }

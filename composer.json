@@ -2,7 +2,7 @@
     "name": "imafaz/mikrolink",
     "description": "lightweight library for manage mikrotik router os with api",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "keywords": [
         "MikroLink",
